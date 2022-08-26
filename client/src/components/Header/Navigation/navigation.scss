@@ -1,0 +1,27 @@
+@import '../../../style/utils.scss';
+
+
+.navigation {
+    background-color: $white;
+}
+
+.nav-buttons{
+
+    button {
+        background-color: $white;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        border-right: 1px solid $black;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    button:last-child {
+        border: none;
+    }
+    button:first-child {
+        margin-left: 8px;
+    }
+}
+

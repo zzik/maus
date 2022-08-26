@@ -1,0 +1,29 @@
+@import '../../../style/utils.scss';
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 16px;
+    background-color: $white;
+}
+.site-logo {
+    width: 40%;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+        font-size: 20px;
+        padding: 12px;
+        margin: 0px 16px;
+        border: none;
+        background-color: inherit;
+    }
+    i {
+        margin-right: 16px;
+    }
+}
