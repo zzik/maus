@@ -1,2 +1,9 @@
 @import './Actions/actions.scss';
 @import './Navigation/navigation.scss';
+
+.header {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

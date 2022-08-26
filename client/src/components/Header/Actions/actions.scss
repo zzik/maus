@@ -6,11 +6,12 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
-    padding: 16px;
+    padding: 15px 30px 9px 32px;
     background-color: $white;
+    border-bottom: 1px solid black;
 }
 .site-logo {
-    width: 40%;
+    width: 185px;
 }
 .buttons {
     display: flex;

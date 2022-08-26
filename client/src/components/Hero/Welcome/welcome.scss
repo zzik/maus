@@ -1,0 +1,83 @@
+@import "../../../style/utils.scss";
+
+.hero-welcome {
+  background-image: url(./Frame.png);
+  position: absolute;
+  width: 100%;
+  height: 420px;
+  top: 130px;
+  padding: 32px 285px 164px 135px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 40px;
+
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 0.3px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 36px;
+    font-weight: 400;
+  }
+  h1,
+  h2 {
+    font-family: "Josefin Sans";
+  }
+}
+
+.hero-title {
+  height: 224px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  line-height: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+  button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 0.3px;
+    border-radius: 8px;
+  }
+}
+
+#register {
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 14px 15px 18px;
+  gap: 28px;
+}
+#login {
+  background-color: $white;
+  color: $black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 31px 15px 18px;
+  gap: 34px;
+}

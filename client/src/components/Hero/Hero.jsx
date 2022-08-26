@@ -1,8 +1,13 @@
 import React from 'react'
+import { About } from './About'
+import { Welcome } from './Welcome'
 
 const Hero = () => {
   return (
-    <section className='hero'>HERO</section>
+    <section className='hero'>
+      <Welcome />
+      {/* <About /> */}
+    </section>
   )
 }
 

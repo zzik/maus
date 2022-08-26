@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <section className='header'>
       <Actions />
-      <hr/>
+      
       <Navigation />
     </section>
   )

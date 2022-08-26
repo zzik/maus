@@ -6,9 +6,9 @@ const MainLayout = () => {
     <>
       <Header />
       <Hero />
-      <Forum />
+      {/* <Forum />
       <Featured />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }

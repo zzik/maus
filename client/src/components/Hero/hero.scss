@@ -1,0 +1,8 @@
+@import '../../style/utils.scss';
+@import './About/about.scss';
+@import './Welcome/welcome.scss';
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.54);
+    color: $white;
+}
