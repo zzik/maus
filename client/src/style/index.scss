@@ -1,29 +1,26 @@
-@import './utils.scss';
+@import "./utils.scss";
 
-@import '../components/Header/header.scss';
-@import '../components/Hero/hero.scss';
-@import '../components/Forum/forum.scss';
-@import '../components/Featured/featured.scss';
-@import '../components/Footer/footer.scss';
-
+@import "../components/Header/header.scss";
+@import "../components/Hero/hero.scss";
+@import "../components/Forum/forum.scss";
+@import "../components/Featured/featured.scss";
+@import "../components/Footer/footer.scss";
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
 }
 
 #root {
-    background-color: $background;
-//background-image: url(./img/Frame.png);
-// background-repeat: no-repeat;
+  background-color: $background;
+
 
 }
 
 .content {
-    position: absolute;
-    top: 130px;
-    left: 0;
-    right: 0;
+
+//   display: flex;
+//   flex-direction: column;
 }
