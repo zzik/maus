@@ -4,10 +4,10 @@ import Text from './Text'
 
 const About = () => {
   return (
-    <div className='hero-about'>
+    <>
       <Text />
       <Frame />
-    </div>
+    </>
   )
 }
 

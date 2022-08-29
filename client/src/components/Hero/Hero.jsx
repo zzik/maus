@@ -4,10 +4,10 @@ import { Welcome } from './Welcome'
 
 const Hero = () => {
   return (
-    <>
+    <div className='hero'>
       <Welcome />
       <About />
-    </>
+    </div>
   )
 }
 
