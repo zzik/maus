@@ -4,10 +4,10 @@ import { Welcome } from './Welcome'
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <>
       <Welcome />
       {/* <About /> */}
-    </section>
+    </>
   )
 }
 
