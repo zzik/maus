@@ -1,10 +1,10 @@
 import React from 'react'
-// import image from './nature.png'
+import image from './nature.png'
 
 const Frame = () => {
   return (
     <div className='hero-frame' >
-      <div className='hero-image' ></div>
+      <img className='hero-image' src={image} alt="Hot air baloons" />
     </div>
   )
 }
