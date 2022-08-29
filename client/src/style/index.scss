@@ -15,8 +15,15 @@
 }
 
 #root {
-    background-color: $white;
+    background-color: $background;
 //background-image: url(./img/Frame.png);
 // background-repeat: no-repeat;
 
+}
+
+.content {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
 }

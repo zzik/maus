@@ -1,15 +1,15 @@
 import React from "react"
-import { /* Featured, Footer, Forum, */ Header, Hero } from "../components"
+import { /* Featured, */ Forum, Header, Hero } from "../components"
 
 const MainLayout = () => {
   return (
-    <>
-      <Header />
+    <div className="content">
+      {/* <Header /> */}
       <Hero />
-      {/* <Forum />
-      <Featured />
-      <Footer /> */}
-    </>
+      <Forum />
+      {/* <Featured />
+      <Footer />  */}
+    </div>
   )
 }
 
