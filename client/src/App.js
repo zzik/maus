@@ -1,4 +1,4 @@
-import { Footer, Header } from "./components";
+import { /*Footer, */Header } from "./components";
 import MainLayout from "./layout/MainLayout";
 import './style/index.scss'
 
