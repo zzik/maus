@@ -1,5 +1,5 @@
 import React from 'react'
-import image from './nature.png'
+// import image from './nature.png'
 
 const Frame = () => {
   return (
